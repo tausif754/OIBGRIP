@@ -1,309 +1,62 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: sans-serif;
-    scroll-behavior: smooth;
+
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color:white;
+    display: grid;
 
 }
 .container{
-    background-color: black;
-}
-
-/* -------------------------------<navigation section------------------- */
-.navigation h2{
-    padding-right: 700px;
-    font-weight: bold;
-    font-size: xx-large;
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-nav{
-    display: flex;
-    width: 100%;
-    margin:auto;
-    padding: 20px 0;
-    align-items: center;
-    justify-content: center;
-    background-color: darkblue;
-
-}
-nav ul li{
-    display: inline-block;
-    list-style: none;
-    margin: 10px 20px;
-
+    height: 70%;
+    width: 50%;
+    background-color:rosybrown;
+    margin-top: 100px;
+    margin-left: 300px;
+    text-align: center;
+    font-weight: 400;
+    font-family: sans-serif;
     
 }
-nav ul li a{
-    text-decoration: none;
-    color:white;
-    font-weight: bold;
-
-
-}
-
-nav ul li a:hover{
-    color:orange;
-    cursor: pointer;
-
-
-}
-/* ----------------------------<image-------------- */
-.detail .image{
-        width: 45%;
-        height: 80%;
-        position: absolute;
-        bottom: 0;
-        right: 100px;
-        border:#3535cd; 
-        
-    }
-
-
-.detail{
-    margin-left:8%;
-    margin-top: 15%;
-
-}
-.detail h1{
-    font-size: 50px;
-    color: chocolate;
-    margin-bottom: 20px;
-
-}
-
-.detail p{
-    color: #555;
-    line-height: 22px;
-
-}
-.detail a{
-    position: relative;
-    background-color: #3535cd;
-    color: white;
-    padding: 10px 18px;
-    text-decoration: none;
-    font-weight: bold;
-    display: inline-block;
-    margin: 30px 0;
-    border-radius: 5px;
-    cursor: pointer;
-
-}
-.detail a:hover{
-    background-color: green;
-    transition:all 0.2s linear;
-    transform: scale(1.2);
-    
-
-}
-
-/* ------------------------<about section-------------------------------- */
-.detail p{
-    color: white;
-}
-.about h1{
-    color: orange;
-}
-.about{
-    margin-top: 5px;
-    padding: 5px;
-    text-decoration: none;
+.container h1{
+    background-color: red;
     text-align: center;
     color: white;
 }
-.about a{
-    position: relative;
-    background-color: #3535cd;
-    color: white;
-    padding: 10px 18px;
-    text-decoration: none;
-    font-weight: bold;
-    display: inline-block;
-    margin: 30px 0;
-    border-radius: 5px;
-    cursor: pointer;
-    transition:all 0.2s linear;
-    transform: scale(1.2);
+.container-box{
+    /* padding-top: 20px; */
+    padding: 20px;
+    margin-top:  5px;
 
 }
-
-
-/* --------------------------<skills section---------------------------------- */
-.skill {
-    
-    display: flex;
-
-}
-
-.skill .box {
-    
-    margin-top: 20px;
-    flex-direction: column;
-    margin-left: 150px;
-    
-    
-}
-.skills h1{
-    color: orange;
-    padding-top: 20px;
+#temp_diff{
+    border-radius: 30px;
+    font-size: large;
+    font-weight: 300;
     text-align: center;
 
 }
-.skill h2{
-    margin-top: 5px;
-    padding: 5px;
-    text-decoration: none;
+#temp{
+    margin-top: 30px;
+    border-radius: 30px;
+    font-size: large;
     text-align: center;
     font-weight: 500;
-    color:yellow;
-}
-
-/* -------------------------------------<qualification section------------------------ */
-.qualification span{
-    color: orange;
-}
-
-.qualification h1{
-    margin-top: 60px;
-    color: orange;
-    text-align: center;
-    font-weight:bold
-}
-.box-container{
-    display:flex;
-    padding: 5px;
-    margin-left: 10px;
-    text-align: center;
-    text-align: justify;
-    color: orange;
-}
-.box-container .box1{
-    text-align: center;
-    color: white;
-    padding-left: 80px;
-}
-.box1,p{
-    padding-right: 10px;
-    margin-top: 5px;
-    text-justify: auto;
-}
-.qualification h5{
-    margin-top: 5px;
-    padding: 5px;
-    text-decoration: none;
-    text-align: center;
-    display: flexbox;
 
 }
-
-/*--------------------------------------------- <services section-------------------------------- */
-.services a{
-    position: relative;
-    background-color: #3535cd;
-    color: white;
-    padding: 10px 18px;
-    text-decoration: none;
-    font-weight: bold;
-    display: inline-block;
-    margin: 30px 0;
-    border-radius: 5px;
-    cursor: pointer;
-}
-.services a:hover {
-    background-color: green;
-    transition:all 0.3s linear;
-    transform: scale(1.2);
-}
-.services h1{
-    margin-top: 60px;
-    color: orange;
-    font-weight: bold;
-
-}
-.services{
-    margin-top: 5px;
-    padding: 5px;
-    text-decoration: none;
-    text-align: center;
-}
-.contact-card h3,h5{
-    margin: 5px;
-    padding: 5px;
-    color: white;
-    font-weight: 200;
-
-}
-/* ----------------------------------footer section------------------------- */
-
-.footers h1{
-    color: orange;
+.button{
     margin-top: 30px;
-    text-align: center;
-
-
-}
-.footer{
-    text-align: center;
-}
-.footer a{
-    margin-top: 400px;
-    height: 100px;
-    width: 100px;
-    margin: 10px;
-    
-    background: color #f5f6fa;;
-    border-radius: 50px;
-    /* box-shadow: 1px 4px 2px #dcdde1; */
-
-    text-decoration: none;  
-}
-.footer a i{
-    font-size: 30px;
-    line-height: 50px;
-    transition:all 0.3s linear;
-
-}
-.footer a:hover i{
-    transform: scale(1.4);
-    
-}
-.fa-facebook{
-color: #3b5998;
-}
-.fa-instagram{
-    color: #e84393;
-
-}
-.fa-linkedin{
-    color: #0097e6;
-
-}
-.fa-twitter{
-    color: #0097e6;
-
-}
-/* ----------------------<footer-copyright----------------------------- */
-
-.arrow-button a{
-    margin-top: 100%;
-    border-radius: 5px;
-    position: fixed;
-    width: 50px;
-    height: 50px;
-    background-color: #3535cd;
-    bottom: 40px;
-    left: 90%;
-    text-decoration: none;
-    text-align: center;
-    line-height: 50px;
-    color: white;
-    font-size: large;
-    scroll-behavior: smooth;
-
-}
-.footer-copyright{
-    text-align: center;
+    color: black;
+    font-weight: 600;
+    font-size: larger;
+    font-family: sans-serif;
+  
+   
 }
 
+            

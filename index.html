@@ -4,166 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio</title>
-    <link href='https://fonts.googleapis.com/css?family=Raleway:400, 600' rel='stylesheet' type='text/css'>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet"/>
-    <link href='style.css' rel='stylesheet' type='text/css'/>
-
+    <link rel="stylesheet" href="style.css">
+    <title>Temperature Converter</title>
+    
 </head>
 <body>
     <div class="container">
-        <!-- <navigationbar -->
-            <div class="navigation">
-                <nav>
-                    <h2>Tausif</h2>
-                    <img src="" alt="">
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Hire Me</a></li>
-                    </ul>
-                </nav>
-                <div class="detail">
-                    <h1>Hi</h1>
-                    <h1>I am Tausif</h1>
-                    <!-- <span><h2>I am Tausif</h2></span> -->
-                    <h4>Frontend developer</h4>
-                    <p>
-                        High level experience in web Design and Development<br>
-                        knowledge , producing quality work.
-
-                    </p>
-                    <a href="https://www.linkedin.com/in/tausif-ahmad-9b7818220/">Contact me <span><i class="fa-sharp fa-solid fa-user"></i></span></a>
-                
-                <div class="image">
-                    <img src="" class="shape">
-                    <img src="image1.jpeg" height="300px",width="200px" alt="profile photo">
-
-                </div>
-
-                </div>
+        <h1>Temperature Conversion Calculator</h1>
+        <img src="Temperature-img.png">
+<form  id ="tempCalc" onsubmit="calculateTemp(); return false">
+    <div class="container-box">
+        <label for="temp"><h3>Please enter the temperature you'd like to convert</h3></label>
+   <br/><input type="number"name=""id="temp">
+    <select name="temp_diff"id="temp_diff">
+        <option value="sel">Select</option>
+        <option value="cel">Celsius</option>
+        <option value="fah">Forenheit</option>
         
-            </div>
-        
-                <!-- <about section -->
-
-                    <div class="about">
-                
-                        <h1>About Me</h1>
-                        <hr>
-                        <h5>My Introduction</h5>
-                        <img src="" alt="">
-                        <p>My name is Tausif Ahmad and i am doing B.Tech from Maulana Azad National Urdu University Hyderabad.<br>
-                            I also completed three years diploma from MANUU and I have recently done Internship <br>
-                            in Web Development and Design </p>
-                        <a href="#">Download CV <span> <i class="fa-sharp fa-solid fa-download"></i></span></a>
-
-                    </div>
-                
-                    <!-- <skill section -->
-                        <div class="skills">
-                            <h1>Skills</h1>
-                            <hr>
-                        </div>
-                       
-
-                        <div class="skill">
-                            
-                            
-                    <div class="box">
-                        <h2>Frontend Developer</h2>
-                           <span><h5>More than 2 yaers </5></span>
-
-                    </div>
-                    <div class="box">
-                        <h2>Backend Developer</h2>
-                        <span> <h5>More than 3 yaers </h5></span>
-                
-                    </div>
-                          <div class="box">
-                            <h2>Desiner</h2>
-                            <span> <h5>More than 1 yaers </h5></span>
-                        
-                          </div>  
-                          
-                           
-                        </div>
-                        
-                       <!-- < qualification section -->
-
-                       <div class="qualification">
-                        <h1>Qualification</h1>
-                        <hr>
-                        <h5>My Personal Journey</h5>
-                        <div class="box-container">
-                            <div class="box1">
-                                <span><i class="fa-sharp fa-solid fa-graduation-cap"></i></span> <h3>Bachelor Of Technology</h3>
-                                <span>2020-2024</span>
-                                <p>I am studying in Maulana Azad<br> National Urdu University Hyderabad</p>
-                            </div>
-                            <div class="box1">
-                                <span><i class="fa-sharp fa-solid fa-graduation-cap"></i></span><h3>Diploma</h3>
-                                <span>2017-2020</span>
-                                <p>I have completed Diploma Computer <br>Science in Engineering from  Maulana<br> Azad National Urdu University Darbhanga</p>
-                            </div>
-                            <div class="box1">
-                             <span><i class="fa-sharp fa-solid fa-graduation-cap"></i></span><h3>Matriculation</h3>
-                                <span>2016-2017</span>
-                                <p>I have completed 10th in 2017 from BSEB Board Patna </p>
-                            </div>
-                        </div>
-                       
-                       </div>
-                       <!-- ------------------------------services <section----------- -->
-                       <div class="services">
-                        <h1>Services</h1>
-                        <hr>
-                        <div class="contact-card">
-                            <h3>You have a new project</h3>
-                            <h5>Contact me know and get a 30% discount on your new project</h5>
-                            <a href="#">Contact Me  <span><i class="fa-sharp fa-solid fa-user"></i></span></a>
-                        </div> 
-                
-                       </div>
-
-                       <!-------------------------- <footer section---------------- -->
-                        <div class="footers">
-                            <h1>Follow us </h1>
-                        <hr>
-                        </div>
-
-                       <div class="footer">
-                    
-                                <a href="#">
-                                    <i class="fa-brands fa-facebook"></i>
-                                </a>
-                            <a href="#">
-                                <i class="fa-brands fa-instagram"></i>
-                            </a>
-                            <a href="#">
-                                <i class="fa-brands fa-linkedin"></i>
-                            </a>
-                            <a href="#">
-                                <i class="fa-brands fa-twitter"></i>
-                            </a>  
-                        
-                        <!-- <h5>Design By Tausif Ahmad</h5> -->
-                         
-                
-                    </div>
-                    <div class="arrow-button">
-                        <a href="#"><i class="fa-solid fa-arrow-up"></i></a>
-                    </div>
-                    <div class="footer-copyright">
-                        <h5>Design By Tausif Ahmad &copy; 2023-24</h5>
-                        
-                    </div>
+    </select><br/>
+    <div class="button">
+        <input type="submit"  name="temp"><br/>
     
 
     </div>
-   
-   
+    <br>
+    
+    <span id="resultContainer"></span>
 
+    </div>
+
+</form>
+
+    </div>
+    <script src="script.js"></script>
 </body>
+</html>
